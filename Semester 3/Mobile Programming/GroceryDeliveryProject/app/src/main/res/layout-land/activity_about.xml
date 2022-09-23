@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <TextView
+        android:id="@+id/aboutText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="24dp"
+        android:shadowColor="@color/black"
+        android:text="@string/about"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/aboutDescText"
+        android:layout_width="354dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="124dp"
+        android:layout_marginEnd="332dp"
+        android:layout_marginBottom="50dp"
+        android:text="Developed by Leon Mohan\n\nStudent ID: N01421734\nSubmission date: December 5th 2021\nCourse: CPAN-200-RNB\n\nNote: This was an assignment that made me combine all the modules we learned thoughout the course. This app will demonstrate data verification, multiscreen integration and data persistence"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="backOnClick"
+        android:text="@string/back"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/aboutDescText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

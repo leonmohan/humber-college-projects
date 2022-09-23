@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountMenuActivity">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="121dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="145dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/grocery_logo" />
+
+    <Button
+        android:id="@+id/browseBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="112dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="@string/buy_groceries"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whatWouldULikeText" />
+
+    <TextView
+        android:id="@+id/whatWouldULikeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="89dp"
+        android:text="@string/what_would_u_like"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="74dp"
+        android:text="Welcome, XXXXXXXXXX"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logoImage" />
+
+    <Button
+        android:id="@+id/orderHistoryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="114dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:text="@string/order_history"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/browseBtn" />
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="156dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="@string/logout"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/orderHistoryBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

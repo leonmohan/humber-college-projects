@@ -1,0 +1,95 @@
+
+.heading{
+    font-family: 'Franklin Gothic Medium';
+}
+
+#heading_title {
+    font-size: 100px;
+    margin-top: 30px;
+    margin-left: 36%;
+    margin-bottom: 0px;
+    word-spacing: 5px;
+    letter-spacing: 5px;
+}
+
+#heading_desc {
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 41%;
+}
+
+
+#about{
+    color:white;
+    font-family: 'Franklin Gothic Medium';
+    float: left;
+    width: 20%;
+    height: 750px;
+    margin-top: 19.920px;
+    box-sizing: border-box;
+    font-size: 100px;
+    background-image: url(./beach.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#contact{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    float: left;
+    width: 20%;
+    height: 750px;
+    font-size: 100px;
+    margin-top: 19.920px;
+    background-image: url(./email.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#resume{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    float: left;
+    width: 20%;
+    height: 750px;
+    font-size: 100px;
+    margin-top: 19.920px;
+    background-image: url(./resume.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#projects{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    float: left;
+    width: 20%;
+    height: 750px;
+    font-size: 100px;
+    margin-top: 19.920px;
+    background-image: url(./projects.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+#linkedin{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    float: left;
+    width: 20%;
+    height: 750px;
+    font-size: 100px;
+    margin-top: 19.920px;
+    background-image: url(./linkedin.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+}

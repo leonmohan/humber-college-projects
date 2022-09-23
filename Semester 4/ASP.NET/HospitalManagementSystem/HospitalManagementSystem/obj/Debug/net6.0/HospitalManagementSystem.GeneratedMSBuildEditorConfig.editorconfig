@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = HospitalManagementSystem
+build_property.RootNamespace = HospitalManagementSystem
+build_property.ProjectDir = C:\Users\leonm\OneDrive\Desktop\Humber College Github\Semester 4\ASP.NET\HospitalManagementSystem\HospitalManagementSystem\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\leonm\OneDrive\Desktop\Humber College Github\Semester 4\ASP.NET\HospitalManagementSystem\HospitalManagementSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Doctor/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Doctor/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Doctor/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Doctor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Doctor/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRG9jdG9yXFNlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Patient/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Patient/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Patient/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Patient/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Patient/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF0aWVudFxTZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Visit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Visit/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Visit/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Visit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Visit/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmlzaXRcU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/leonm/OneDrive/Desktop/Humber College Github/Semester 4/ASP.NET/HospitalManagementSystem/HospitalManagementSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lylxlz6yg0

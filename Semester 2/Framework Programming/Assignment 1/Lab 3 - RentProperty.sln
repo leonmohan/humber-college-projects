@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab 3 - RentProperty", "Lab 3 - RentProperty\Lab 3 - RentProperty.csproj", "{F05F1365-EDD1-468B-B56C-A95AECE97BEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyClasses", "PropertyClasses\PropertyClasses.csproj", "{44EC4B3D-A0F7-4ADF-A877-83703728215D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F05F1365-EDD1-468B-B56C-A95AECE97BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05F1365-EDD1-468B-B56C-A95AECE97BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05F1365-EDD1-468B-B56C-A95AECE97BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05F1365-EDD1-468B-B56C-A95AECE97BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44EC4B3D-A0F7-4ADF-A877-83703728215D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44EC4B3D-A0F7-4ADF-A877-83703728215D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44EC4B3D-A0F7-4ADF-A877-83703728215D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44EC4B3D-A0F7-4ADF-A877-83703728215D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8654058-9F84-4003-8DA9-84C1B77E856A}
+	EndGlobalSection
+EndGlobal

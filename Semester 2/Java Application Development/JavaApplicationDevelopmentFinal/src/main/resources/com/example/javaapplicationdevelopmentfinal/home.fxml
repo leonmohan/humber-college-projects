@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaapplicationdevelopmentfinal.HomeController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="400.0" prefWidth="627.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label alignment="CENTER" layoutX="31.0" layoutY="28.0" style="&#10;" text="ZOO Management System" textAlignment="CENTER" wrapText="false">
+          <font>
+            <Font size="31.0" />
+          </font>
+        </Label>
+            <Button fx:id="viewStaff" layoutX="31.0" layoutY="101.0" mnemonicParsing="false" onAction="#viewStaff" text="Staff">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Button fx:id="viewAnimals" layoutX="117.0" layoutY="101.0" mnemonicParsing="false" onAction="#viewAnimals" text="Animals">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

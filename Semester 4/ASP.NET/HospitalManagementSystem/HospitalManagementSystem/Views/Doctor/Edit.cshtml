@@ -1,0 +1,23 @@
+﻿@model Doctor
+
+<h1>Edit doctor</h1>
+
+<form asp-action="Edit"  asp-controller="Doctor" method="post">
+	<label asp-for="Name"></label>
+	<input asp-for="Name" type="text" placeholder="Name" />
+	<span asp-validation-for="Name" class="text-danger"></span>
+	<br />
+	<br />
+	<label asp-for="Office"></label>
+	<input asp-for="Office" type="text" placeholder="Office" />
+	<span asp-validation-for="Office" class="text-danger"></span>
+	<br />
+	<br />
+	<label asp-for="Practice"></label>
+	<input asp-for="Practice" type="text" placeholder="Practice" />
+	<span asp-validation-for="Practice" class="text-danger"></span>
+	<br />
+	<br />
+	<button>Update</button>
+	<a asp-action="Index" asp-controller="Doctor">Back to doctors</a>
+</form>

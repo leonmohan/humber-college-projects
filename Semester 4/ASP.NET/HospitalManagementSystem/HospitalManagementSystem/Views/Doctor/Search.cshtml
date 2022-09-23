@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Doctor>
+
+	<h1>Search doctor results</h1>
+
+	<a asp-action="Index" asp-controller="Doctor">Back to doctors</a>
+
+	<table class="table">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Office</th>
+			<th>Practice</th>
+		</tr>
+		@foreach(var doctor in Model)
+		{
+			<tr>
+				<td>@doctor.Id</td>
+				<td>@doctor.Name</td>
+				<td>@doctor.Office</td>
+				<td>@doctor.Practice</td>
+				<td>
+					<a asp-controller="Doctor" asp-action="Edit" asp-route-id="@doctor.Id">Edit</a>
+				</td>
+				<td>
+					<a asp-controller="Doctor" asp-action="Delete" asp-route-id="@doctor.Id">Delete</a>
+				</td>
+			</tr>
+		}
+	</table>

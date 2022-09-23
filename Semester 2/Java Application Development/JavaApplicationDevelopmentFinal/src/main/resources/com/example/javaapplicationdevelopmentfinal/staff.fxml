@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaapplicationdevelopmentfinal.StaffController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <VBox layoutX="29.0" layoutY="157.0" prefHeight="87.0" prefWidth="63.0">
+               <children>
+                  <Label text="Name">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Job">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="92.0" layoutY="157.0" prefHeight="87.0" prefWidth="141.0">
+               <children>
+                  <TextField fx:id="nameTxt">
+                     <VBox.margin>
+                        <Insets bottom="3.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="jobTxt">
+                     <VBox.margin>
+                        <Insets bottom="3.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+            </VBox>
+            <TableView fx:id="staffTbl" layoutX="346.0" layoutY="38.0" prefHeight="337.0" prefWidth="227.0">
+              <columns>
+                <TableColumn fx:id="idCol" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="nameCol" prefWidth="75.0" text="NAME" />
+                  <TableColumn fx:id="jobCol" prefWidth="75.0" text="JOB" />
+              </columns>
+            </TableView>
+            <Button fx:id="insertBtn" layoutX="29.0" layoutY="275.0" mnemonicParsing="false" text="Insert" onAction="#insertStaff"/>
+            <Button fx:id="updateBtn" layoutX="81.0" layoutY="275.0" mnemonicParsing="false" text="Update" onAction="#updateStaff"/>
+            <Button fx:id="deleteBtn" layoutX="143.0" layoutY="275.0" mnemonicParsing="false" text="Delete" onAction="#deleteStaff"/>
+            <Label layoutX="27.0" layoutY="29.0" text="STAFF">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Button fx:id="homeBtn" layoutX="201.0" layoutY="275.0" mnemonicParsing="false" text="Home" onAction="#viewHome" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

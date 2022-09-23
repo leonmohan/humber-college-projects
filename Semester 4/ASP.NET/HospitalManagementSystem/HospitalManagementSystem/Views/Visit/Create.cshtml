@@ -1,0 +1,21 @@
+﻿@model Visit
+
+<h1>Create a new visit</h1>
+
+<form asp-action="Create"  asp-controller="Visit" method="post">
+	<label asp-for="DoctorID">Doctor</label>
+    <select asp-for="DoctorID" asp-items="ViewBag.DoctorID"></select>
+	<br />
+	<br />
+	<label asp-for="PatientID">Patient</label>
+    <select asp-for="PatientID" asp-items="ViewBag.PatientID"></select>
+	<br />
+	<br />
+	<label asp-for="DoctorNotes"></label>
+	<input asp-for="DoctorNotes" type="text" placeholder="Enter note" >
+	<span asp-validation-for="DoctorNotes" class="text-danger"></span>
+	<br />
+	<br />
+	<button>Create</button>
+	<a asp-action="Index" asp-controller="Visit">Back to visits</a>
+</form>

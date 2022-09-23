@@ -1,0 +1,34 @@
+D:\Humber\Framework Programming CPAN 2016\2021\Week 4\Lab 4 - RentProperty(with classes)\PropertyClasses\bin\Debug\PropertyClasses.dll
+D:\Humber\Framework Programming CPAN 2016\2021\Week 4\Lab 4 - RentProperty(with classes)\PropertyClasses\bin\Debug\PropertyClasses.pdb
+D:\Humber\Framework Programming CPAN 2016\2021\Week 4\Lab 4 - RentProperty(with classes)\PropertyClasses\obj\Debug\PropertyClasses.csprojAssemblyReference.cache
+D:\Humber\Framework Programming CPAN 2016\2021\Week 4\Lab 4 - RentProperty(with classes)\PropertyClasses\obj\Debug\PropertyClasses.dll
+D:\Humber\Framework Programming CPAN 2016\2021\Week 4\Lab 4 - RentProperty(with classes)\PropertyClasses\obj\Debug\PropertyClasses.pdb
+D:\Humber\Framework Programming CPAN 2016\2021\Week 5\Lab 5 - RentProperty(Start)\PropertyClasses\bin\Debug\PropertyClasses.dll
+D:\Humber\Framework Programming CPAN 2016\2021\Week 5\Lab 5 - RentProperty(Start)\PropertyClasses\bin\Debug\PropertyClasses.pdb
+D:\Humber\Framework Programming CPAN 2016\2021\Week 5\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.csprojAssemblyReference.cache
+D:\Humber\Framework Programming CPAN 2016\2021\Week 5\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.dll
+D:\Humber\Framework Programming CPAN 2016\2021\Week 5\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.pdb
+C:\Users\leonm\Desktop\Lab 5 - RentProperty(Start)\PropertyClasses\bin\Debug\PropertyClasses.dll
+C:\Users\leonm\Desktop\Lab 5 - RentProperty(Start)\PropertyClasses\bin\Debug\PropertyClasses.pdb
+C:\Users\leonm\Desktop\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.csprojAssemblyReference.cache
+C:\Users\leonm\Desktop\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.csproj.CoreCompileInputs.cache
+C:\Users\leonm\Desktop\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.dll
+C:\Users\leonm\Desktop\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.pdb
+D:\Framework Programming\Lab 5 - RentProperty(Start)\PropertyClasses\bin\Debug\PropertyClasses.dll
+D:\Framework Programming\Lab 5 - RentProperty(Start)\PropertyClasses\bin\Debug\PropertyClasses.pdb
+D:\Framework Programming\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.csprojAssemblyReference.cache
+D:\Framework Programming\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.csproj.CoreCompileInputs.cache
+D:\Framework Programming\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.dll
+D:\Framework Programming\Lab 5 - RentProperty(Start)\PropertyClasses\obj\Debug\PropertyClasses.pdb
+D:\Framework Programming\Assignment 1\PropertyClasses\bin\Debug\PropertyClasses.dll
+D:\Framework Programming\Assignment 1\PropertyClasses\bin\Debug\PropertyClasses.pdb
+D:\Framework Programming\Assignment 1\PropertyClasses\obj\Debug\PropertyClasses.csprojAssemblyReference.cache
+D:\Framework Programming\Assignment 1\PropertyClasses\obj\Debug\PropertyClasses.csproj.CoreCompileInputs.cache
+D:\Framework Programming\Assignment 1\PropertyClasses\obj\Debug\PropertyClasses.dll
+D:\Framework Programming\Assignment 1\PropertyClasses\obj\Debug\PropertyClasses.pdb
+C:\Desktop\College work\Semester 2\Framework Programming\Assignment 1\PropertyClasses\bin\Debug\PropertyClasses.dll
+C:\Desktop\College work\Semester 2\Framework Programming\Assignment 1\PropertyClasses\bin\Debug\PropertyClasses.pdb
+C:\Desktop\College work\Semester 2\Framework Programming\Assignment 1\PropertyClasses\obj\Debug\PropertyClasses.csproj.AssemblyReference.cache
+C:\Desktop\College work\Semester 2\Framework Programming\Assignment 1\PropertyClasses\obj\Debug\PropertyClasses.csproj.CoreCompileInputs.cache
+C:\Desktop\College work\Semester 2\Framework Programming\Assignment 1\PropertyClasses\obj\Debug\PropertyClasses.dll
+C:\Desktop\College work\Semester 2\Framework Programming\Assignment 1\PropertyClasses\obj\Debug\PropertyClasses.pdb

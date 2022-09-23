@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">GroceryDeliveryProject</string>
+    <string name="login">Log in</string>
+    <string name="logout">Log out</string>
+    <string name="sign_up">Sign up</string>
+    <string name="or">OR</string>
+    <string name="continue_as_guest">Continue as guest</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_user">Welcome, </string>
+
+    <string name="enter_username">Enter username</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_address">Enter address</string>
+    <string name="enter_phone">Enter phone</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="back">Back</string>
+    <string name="checkout">Checkout</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="name_error">*please enter a valid name</string>
+
+    <string name="name">Enter name</string>
+    <string name="dairy">Dairy</string>
+    <string name="frozen">Frozen</string>
+    <string name="produce">Produce</string>
+    <string name="pantry">Pantry</string>
+
+    <string name="cream_cheese">Cream cheese</string>
+    <string name="eggs">Eggs</string>
+    <string name="milk">Milk</string>
+    <string name="salted_butter">Salted butter</string>
+    <string name="cart">Cart</string>
+    <string name="shredded_cheese">Shredded cheese</string>
+
+    <string name="where_u_shopping">Where will you be shopping today?</string>
+
+    <string name="username_error">*enter valid username</string>
+    <string name="username_error2">*username is taken</string>
+    <string name="username_error3">*account not found</string>
+    <string name="password_error">*enter valid password</string>
+    <string name="email_error">*enter valid email</string>
+    <string name="address_error">*enter valid address</string>
+    <string name="phone_error">*enter valid phone</string>
+
+    <string name="what_would_u_like">What would you like to do today?</string>
+    <string name="buy_groceries">Browse groceries</string>
+    <string name="order_history">My order history</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>

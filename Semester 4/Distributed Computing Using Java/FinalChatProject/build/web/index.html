@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Chat app</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+        <script>
+    $(document).ready(function(){
+        function updateChat(){
+            setTimeout(()=>{
+                $.ajax("http://localhost:8080/FinalChatProject/messages.html", {success:function(result){$("#history").html(result)} })
+            }, 200)
+        }
+        
+        updateChat()
+        
+        
+        $("#post").on('click', function(){
+            var msg = $("#message").val()
+            $.ajax("http://localhost:8080/FinalChatProject/messages.html", {
+                type:"POST",
+                data:{message:msg}
+            })
+            
+            updateChat()
+        })
+        
+        
+        $("#delete").on('click', function(){
+            $.ajax("http://localhost:8080/FinalChatProject/messages.html", {
+                type:"DELETE"
+            })
+            
+            updateChat()
+        })
+        
+        
+    });
+        </script>
+    </head>
+    
+    <body>
+        <h1>Welcome to the chat app!</h1>
+        <br />
+        <textarea id="message"></textarea>
+        <button id="post">Post message</button>
+        <button id="delete">Delete</button>
+        <h2>Chat history</h2>
+        <div id="history">
+            
+        </div>
+        
+        
+        
+        
+    
+    </body>
+</html>

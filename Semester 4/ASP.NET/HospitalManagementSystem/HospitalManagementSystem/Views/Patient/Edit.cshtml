@@ -1,0 +1,17 @@
+﻿@model Patient
+
+<h1>Edit patient</h1>
+
+<form asp-action="Edit"  asp-controller="Patient" method="post">
+	<label asp-for="Name"></label>
+	<input asp-for="Name" type="text" placeholder="Name" />
+	<span asp-validation-for="Name" class="text-danger"></span>
+	<br />
+	<br />
+	<label asp-for="DoctorID"></label>
+	<select asp-for="DoctorID" asp-items="ViewBag.DoctorID"></select>
+	<br />
+	<br />
+	<button>Update</button>
+	<a asp-action="Index" asp-controller="Patient">Back to patients</a>
+</form>

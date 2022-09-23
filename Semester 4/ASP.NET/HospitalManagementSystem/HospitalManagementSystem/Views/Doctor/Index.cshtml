@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Doctor>
+
+	<h1>Doctors</h1>
+
+	<form asp-action="Search" asp-controller="Doctor" method="POST">
+		<input type="text" name="searchTerm" placeholder="Search doctors by name "/>
+		<button>Search</button>
+	</form>
+
+	<a asp-action="Create" asp-controller="Doctor">Add doctor</a>
+
+	<table class="table">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Office</th>
+			<th>Practice</th>
+			<th></th>
+		</tr>
+		@foreach(var doctor in Model)
+		{
+			<tr>
+				<td>@doctor.Id</td>
+				<td>@doctor.Name</td>
+				<td>@doctor.Office</td>
+				<td>@doctor.Practice</td>
+				<td>
+					<a asp-controller="Doctor" asp-action="Edit" asp-route-id="@doctor.Id">Edit</a>
+				</td>
+				<td>
+					<a asp-controller="Doctor" asp-action="Delete" asp-route-id="@doctor.Id">Delete</a>
+				</td>
+			</tr>
+		}
+	</table>

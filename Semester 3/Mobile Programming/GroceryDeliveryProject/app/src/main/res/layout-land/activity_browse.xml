@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BrowseActivity">
+
+    <Button
+        android:id="@+id/browseCancelBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="318dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:onClick="browseCancelOnClick"
+        android:text="@string/cancel"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whereYouShoppingText" />
+
+    <TextView
+        android:id="@+id/whereYouShoppingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="182dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="182dp"
+        android:text="@string/where_u_shopping"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/walmartBtn"
+        android:layout_width="116dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="walmartOnClick"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/metroBtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whereYouShoppingText"
+        app:srcCompat="@drawable/walmart_logo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/foodbasicsBtn"
+        android:layout_width="113dp"
+        android:layout_height="111dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="96dp"
+        android:onClick="foodbasicsOnClick"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/superstoreBtn"
+        app:layout_constraintTop_toBottomOf="@+id/whereYouShoppingText"
+        app:srcCompat="@drawable/foodbasics_logo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/superstoreBtn"
+        android:layout_width="115dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="28dp"
+        android:onClick="superstoreOnClick"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/foodbasicsBtn"
+        app:layout_constraintStart_toEndOf="@+id/metroBtn"
+        app:layout_constraintTop_toBottomOf="@+id/whereYouShoppingText"
+        app:srcCompat="@drawable/superstore_logo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/metroBtn"
+        android:layout_width="115dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:onClick="metroOnClick"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toStartOf="@+id/superstoreBtn"
+        app:layout_constraintStart_toEndOf="@+id/walmartBtn"
+        app:layout_constraintTop_toBottomOf="@+id/whereYouShoppingText"
+        app:srcCompat="@drawable/metro_logo"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

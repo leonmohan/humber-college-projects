@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- CODED BY: Leon Mohan -->
+<!-- /////////////////////////////////// -->
+
+<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ClassPlan">
+        <xs:complexType>
+            <xs:sequence>
+                <!-- Main table headers -->
+                <xs:element type="xs:string" name="ModuleHeader"/>
+                <xs:element type="xs:string" name="TopicHeader"/>
+                <xs:element type="xs:string" name="ActivityHeader"/>
+                <xs:element type="xs:string" name="WeightHeader"/>
+                <!-- Modules (aka. contents of the main table) -->
+                <xs:element name="WeekModule" maxOccurs="14"> <!-- I am setting this to 14 because the document says it should a 14 week plan. -->
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="Week"/>
+                            <xs:element type="xs:string" name="ModuleName"/>
+                            <xs:element name="Topic" maxOccurs="unbounded" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="TopicInformation"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Activity" maxOccurs="unbounded" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="ActivityName"/>
+                                        <xs:element type="xs:string" name="Weight"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <!-- Summary table -->
+                <xs:element name="Summary">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="SummaryHeader"/>
+                            <xs:element name="Labs" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="Name"/>
+                                        <xs:element type="xs:string" name="Weight"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Quizzes" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="Name"/>
+                                        <xs:element type="xs:string" name="Weight"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Assignments" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="Name"/>
+                                        <xs:element type="xs:string" name="Weight"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Projects" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="Name"/>
+                                        <xs:element type="xs:string" name="Weight"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Total" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element type="xs:string" name="Name"/>
+                                        <xs:element type="xs:string" name="Weight"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

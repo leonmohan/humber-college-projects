@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- CODED BY: Leon Mohan -->
+<!-- /////////////////////////////////// -->
+
+<?xml-stylesheet type="text/xsl" href="classplan.xslt" ?>
+
+<ClassPlan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="classplan.xsd">
+    <!--Main table's header-->
+    <ModuleHeader>Modules/Week#</ModuleHeader>
+    <TopicHeader>Topics and Readings</TopicHeader>
+    <ActivityHeader>Class Activity</ActivityHeader>
+    <WeightHeader>Weight</WeightHeader>
+    
+    <!-- Modules (aka. contents of the main table) -->
+    <WeekModule>
+        <Week>1</Week>
+        <ModuleName>Basic XML</ModuleName>
+        <Topic>
+            <TopicInformation>Review course objectives, topics, assignments, policies</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Explain the structure of an XML Document</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Define the role of XML in web development</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Discover information Hierarchies</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Identify well-formed XML</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Identify valid XML syntax</TopicInformation>
+        </Topic>
+        <Activity>
+            <ActivityName>Lab Activity(1)</ActivityName>
+            <Weight>2%</Weight>
+        </Activity>
+    </WeekModule>
+    <WeekModule>
+        <Week>2</Week>
+        <ModuleName>XML Document, and DTD</ModuleName>
+        <Topic>
+            <TopicInformation>Explain the structure of an XML Document</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Employ elements and attributes</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Define the structure and role of DTD</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Construct DTD for an XML document and create an XML document form DTD</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Validate XML documents using DTD</TopicInformation>
+        </Topic>
+        <Activity>
+            <ActivityName>Lab Activity(2)</ActivityName>
+            <Weight>3%</Weight>
+        </Activity>
+    </WeekModule>
+    <WeekModule>
+        <Week>3</Week>
+        <ModuleName>XML Schema</ModuleName>
+        <Topic>
+            <TopicInformation>Define the usage of XML Namespace</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Define the structure and role of Schema for XML</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Construct Schema for an XML document and create an XML document from Schema</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Define the structure and role of XSLT in XML</TopicInformation>
+        </Topic>
+        <Topic>
+            <TopicInformation>Compare XML Schema vs DTD</TopicInformation>
+        </Topic>
+        <Activity>
+            <ActivityName>Lab Activity(3)</ActivityName>
+            <Weight>2%</Weight>
+        </Activity>
+        <Activity>
+            <ActivityName>Assignment(1)</ActivityName>
+            <Weight>5%</Weight>
+        </Activity>
+    </WeekModule>
+    
+    <!-- Summary table and its contents -->
+    <Summary>
+        <SummaryHeader>Summary</SummaryHeader>
+        <Labs>
+            <Name>Labs</Name>
+            <Weight>25%</Weight>
+        </Labs>
+        <Quizzes>
+            <Name>Total for all Quizzes</Name>
+            <Weight>25%</Weight>
+        </Quizzes>
+        <Assignments>
+            <Name>Total for all Assignments</Name>
+            <Weight>25%</Weight>
+        </Assignments>
+        <Projects>
+            <Name>Total for all Projects</Name>
+            <Weight>25%</Weight>
+        </Projects>
+        <Total>
+            <Name>TOTAL</Name>
+            <Weight>100%</Weight>
+        </Total>
+    </Summary>
+</ClassPlan>

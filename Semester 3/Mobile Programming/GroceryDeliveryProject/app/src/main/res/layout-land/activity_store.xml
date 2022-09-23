@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoreActivity">
+
+    <ImageView
+        android:id="@+id/companyLogo"
+        android:layout_width="213dp"
+        android:layout_height="221dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <ScrollView
+        android:layout_width="302dp"
+        android:layout_height="276dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toEndOf="@+id/companyLogo"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/pantryBtn"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/pantry" />
+
+            <ImageButton
+                android:id="@+id/produceBtn"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/produce" />
+
+            <ImageButton
+                android:id="@+id/dairyBtn"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dairy" />
+
+            <ImageButton
+                android:id="@+id/frozenFoodBtn"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/frozen" />
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@android:color/darker_gray"
+                android:text="@string/cancel"
+                android:textColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

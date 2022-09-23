@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <link rel="stylesheet" href="./project_style.css">
+</head>
+<body>
+    <a href="index.html"><img src="./go_back.png" id="go_back"></a>
+    <h1>Showcase</h1>
+    <p>These are some of the projects I have worked on so far:</p><br>
+    
+  <h2 id="h2"></h2>
+  <a id="link" href="">
+    <img id="picture" src="" width="800" height="500" alt="Select a button">
+  </a>
+  <br>
+  <input type="radio" name="slideshow" id="project_button" onclick=changeImage1()>
+  <input type="radio" name="slideshow" id="project2_button" onclick=changeImage2()>
+  <input type="radio" name="slideshow" id="project3_button" onclick=changeImage3()>
+  <input type="radio" name="slideshow" id="project4_button" onclick=changeImage4()>
+  <input type="radio" name="slideshow" id="project5_button" onclick=changeImage5()>
+
+
+  <script>
+    function changeImage1(){
+      document.getElementById('picture').src = "./mathinjava.jpg"
+      document.getElementById('h2').innerHTML = "Math in Java (Click the image to download)"
+      document.getElementById('link').href = "./Lab01 - MathInJava.zip"
+    }
+
+    function changeImage2(){
+      document.getElementById('picture').src = "./bodyweightcalculator.png"
+      document.getElementById('h2').innerHTML = "Bodyweight calculator (Click the image to download)"
+      document.getElementById('link').href = "./BodyWeightTest.zip"
+    }
+
+    function changeImage3(){
+      document.getElementById('picture').src = "./scorecalculator.jpg"
+      document.getElementById('h2').innerHTML = "Score in Java calculator (Click the image to download)"
+      document.getElementById('link').href = "./Lab8-WhileAndDoWhile.zip"
+    }
+
+    function changeImage4(){
+      document.getElementById('picture').src = "./lyrics.jpg"
+      document.getElementById('h2').innerHTML = "Lyrics creator using a for loop (Click the image to download)"
+      document.getElementById('link').href = "./Lab 6-ChristmasSong.zip"
+    }
+
+    function changeImage5(){
+      document.getElementById('picture').src = "./calculator.jpg"
+      document.getElementById('h2').innerHTML = "Calculator using GUI (Click the image to download)"
+      document.getElementById('link').href = "./Lab05-IfStatement.zip"
+    }
+  </script>
+
+</body>
+</html>

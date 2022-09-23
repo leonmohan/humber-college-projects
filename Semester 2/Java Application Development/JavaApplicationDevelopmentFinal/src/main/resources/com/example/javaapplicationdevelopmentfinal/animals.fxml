@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javaapplicationdevelopmentfinal.AnimalController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="-1.0" prefWidth="-1.0" VBox.vgrow="ALWAYS">
+      <children>
+            <VBox layoutX="29.0" layoutY="98.0" prefHeight="146.0" prefWidth="63.0">
+               <children>
+                  <Label text="Name">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label text="Gender">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="37.0" text="Age">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="10.0" layoutY="64.0" text="Animal">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox layoutX="92.0" layoutY="98.0" prefHeight="146.0" prefWidth="141.0">
+               <children>
+                  <TextField fx:id="nameTxt">
+                     <VBox.margin>
+                        <Insets bottom="2.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="genderTxt">
+                     <VBox.margin>
+                        <Insets bottom="2.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="ageTxt">
+                     <VBox.margin>
+                        <Insets bottom="2.0" />
+                     </VBox.margin>
+                  </TextField>
+                  <TextField fx:id="animalTxt">
+                     <VBox.margin>
+                        <Insets bottom="2.0" />
+                     </VBox.margin>
+                  </TextField>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+            <TableView fx:id="animalsTbl" layoutX="247.0" layoutY="38.0" prefHeight="337.0" prefWidth="377.0">
+              <columns>
+                <TableColumn fx:id="idCol" prefWidth="75.0" text="ID" />
+                <TableColumn fx:id="nameCol" prefWidth="75.0" text="NAME" />
+                  <TableColumn fx:id="genderCol" prefWidth="75.0" text="GENDER" />
+                  <TableColumn fx:id="ageCol" prefWidth="75.0" text="AGE" />
+                  <TableColumn fx:id="animalCol" prefWidth="75.0" text="ANIMAL" />
+              </columns>
+            </TableView>
+            <Button fx:id="insertBtn" layoutX="14.0" layoutY="275.0" mnemonicParsing="false" onAction="#insertAnimal" text="Insert" />
+            <Button fx:id="updateBtn" layoutX="65.0" layoutY="275.0" mnemonicParsing="false" onAction="#updateAnimal" text="Update" />
+            <Button fx:id="deleteBtn" layoutX="127.0" layoutY="275.0" mnemonicParsing="false" onAction="#deleteAnimal" text="Delete" />
+            <Label layoutX="27.0" layoutY="29.0" text="ANIMALS">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Label>
+            <Button fx:id="homeBtn" layoutX="184.0" layoutY="275.0" mnemonicParsing="false" onAction="#viewHome" text="Home" />
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

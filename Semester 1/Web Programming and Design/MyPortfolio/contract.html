@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./contract_style.css">
+    <script src="./js/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function() {
+    var wrapper         = $(".container1"); 
+    var add      = $(".add_form_field"); 
+    
+    var x = 1; 
+    $(add).click(function(e){ 
+        e.preventDefault();
+        $(wrapper).append('<div><input type="text" name="Contact information"/><a href="#" class="delete">Delete</a></div>');
+    });
+    
+    $(wrapper).on("click",".delete", function(e){ 
+        e.preventDefault(); $(this).parent('div').remove(); x--;
+    })
+});
+</script>
+
+</head>
+
+<body>
+    <a href="index.html"><img src="./go_back.png" id="go_back" ></a>
+    <h1>Contact Me</h1>
+    
+    <form action="results.html" method="GET">
+        
+        <fieldset>
+            <legend>Contact details</legend>
+        <div>
+            <label>Name:</label>
+            <input name="Name" type="text">
+        </div>
+        <br>
+        <div>
+            <label>Feel free to add any extra contact information</label>
+            <br>
+            <div class="container1">
+                <button class="add_form_field">Add New Field &nbsp; <span style="font-size:16px; font-weight:bold;">+ </span></button>
+                <div><input type="text" name="Contact information"></div>
+            </div>
+        </div>
+            </fieldset>
+            <button onclick="alert('Your information has been sent. A new page will now show the information you typed')">Submit</button>
+    </form>
+
+</body>
+</html>

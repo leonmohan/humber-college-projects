@@ -1,0 +1,27 @@
+/* CODED BY: Leon Mohan */
+/* /////////////////////////////////// */
+
+/* The main table's width will cover 100% of the screen */
+table{
+    width: 100%;
+}
+
+/* Centering weight element to be in the center of it's column */
+#weight{
+    text-align: center;
+}
+
+
+/* The background of every even column in classPlan will be changed to powderblue */
+#headers{
+    background: navy;
+}
+#header{
+    color: white;
+}
+
+
+/* The background of every even column in classPlan will be changed to powderblue */
+#classPlan tr:nth-child(even){
+    background:powderblue
+}

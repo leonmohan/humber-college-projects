@@ -1,0 +1,38 @@
+h1{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+main{
+    column-count: 3;
+    column-width: 150px;
+    column-rule: 1px solid #999;
+    font-size: 21px;
+}
+
+body{
+    font-family: 'Arial';
+}
+
+#HumberPicture{
+    width: 33%;
+    height: 700px;
+    float: left;
+}
+
+#languages{
+    width: 34%;
+    height: 700px;
+    float: left;
+}
+
+#gaming{
+    width: 33%;
+    height: 700px;
+    float: left;
+}
+
+#go_back{
+    float: left;
+    width: 30px;
+}
