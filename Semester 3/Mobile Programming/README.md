@@ -7,6 +7,8 @@
 ## Tech used: ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Android](https://img.shields.io/badge/RoomDB-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 The app has 12 activities, 4 entities, 2 fragments, a database access object class, a database class, 17 drawables, 12 layouts (portrait & landscape), and two menus.
 
+Video demo explaining the main functionality: <a href="https://www.youtube.com/watch?v=gDQBWiqnc2c">Demo video</a>
+
 In MainActivty's onResume method, Runnable is used to change the facts image every three seconds. The onResume method also checks if there was any user
 that was previously logged in by checking the sharedPreferences file. The rest of the class is button and menu item click listeners that redirect
 to a new activity.
