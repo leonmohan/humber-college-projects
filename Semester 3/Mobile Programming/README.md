@@ -2,7 +2,7 @@
 ![GroceryDeliveryProject](https://user-images.githubusercontent.com/101066826/191895928-61ea9143-7154-477f-8ff5-7785daf187f9.png)
 
 
-### A final project I created in 2020 for "Numeric Computing" course. What this program does is calculate how a simple interest formula will grow over a specified amount of years and put that information into an .xlsx spreadsheet file.
+### I created this app in 2021 in the third semester as a final for the "Mobile Programming" course at Humber. I was instructed to create an app that solves a problem and contains a database. Since at the time COVID-19 lockdown was happening, I decided to create an app that mimics DoorDash or Instacart. Basically it's an app that allows you to order groceries from different stores and have it delived to your home.
 
 ## Tech used: ![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) ![Android](https://img.shields.io/badge/RoomDB-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 The app has 12 activities, 4 entities, 2 fragments, a database access object class, a database class, 17 drawables, 12 layouts (portrait & landscape), and two menus.
